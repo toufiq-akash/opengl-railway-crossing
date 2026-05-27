@@ -4,7 +4,6 @@ from OpenGL.GLUT import *
 import math
 import random
 
-# ─── Camera ───────────────────────────────────────────────────────────────────
 cameraX = 0
 cameraY = 8
 cameraZ = 28
@@ -13,7 +12,6 @@ lookX = 0
 lookY = 2
 lookZ = 0
 
-# ─── Train state ──────────────────────────────────────────────────────────────
 trainPos    = -80
 trainSpeed  = 0.35
 wheelRotate = 0.0
